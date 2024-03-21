@@ -1,5 +1,6 @@
 import youtube from "../assets/svg/projects/Youtube.svg";
 import ecommerce from "../assets/svg/projects/ecommerce.svg";
+import devconnector from "../assets/svg/projects/devconnector.svg";
 
 export const projectsData = [
   {
@@ -22,27 +23,13 @@ export const projectsData = [
     image: ecommerce,
   },
   {
-    id: 3,
-    projectName: "Travel Agency",
-    projectDesc: "This project about travel agency management.",
-    tags: ["React", "CSS", "Material Ui"],
-    code: "https://github.com/said7388/Travel-Agency-client",
-    demo: "https://travel-agency-fc58b.web.app/",
-    // image: ,
+    id: 2,
+    projectName: "Devconnector",
+    projectDesc:
+      "This project is a social Networking app for developer community, where all developer can interacts.",
+    tags: ["React", "Express", "Bootstrap"],
+    code: "https://github.com/iamomsingh/Devconnector",
+    // demo: "",
+    image: devconnector,
   },
 ];
-
-// Do not remove any fields.
-// Leave it blank instead as shown below
-
-/* 
-{
-    id: 1,
-    projectName: 'Car Pooling System',
-    projectDesc: '',
-    tags: ['Flutter', 'React'],
-    code: '',
-    demo: '',
-    image: ''
-}, 
-*/
