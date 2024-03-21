@@ -1,6 +1,5 @@
-import eight from "../assets/svg/projects/eight.svg";
-import seven from "../assets/svg/projects/seven.svg";
-import six from "../assets/svg/projects/six.svg";
+import youtube from "../assets/svg/projects/Youtube.svg";
+import ecommerce from "../assets/svg/projects/ecommerce.svg";
 
 export const projectsData = [
   {
@@ -10,17 +9,17 @@ export const projectsData = [
     tags: ["React", "Node", "Talwind"],
     code: "https://github.com/iamomsingh/Youtube-Twitter-Frontend",
     demo: "https://youtube-twitter.netlify.app/",
-    image: six,
+    image: youtube,
   },
   {
     id: 2,
-    projectName: "Jewelry Niche",
+    projectName: "Ecommerce store",
     projectDesc:
-      "This project is a Jewelry shop, Customer can be buy product and manage them and make payment.",
-    tags: ["React", "Express", "Material Ui"],
-    code: "https://github.com/said7388/jewelry-niche",
-    demo: "https://pandora-web.netlify.app/",
-    image: seven,
+      "This project is a Ecommerce store, where you can purchase product & make payment through paypal payment gateway.",
+    tags: ["React", "Express", "paypal"],
+    code: "https://github.com/iamomsingh/ecommerce-v2",
+    demo: "https://ecommerce-app-iuo8.onrender.com/",
+    image: ecommerce,
   },
   {
     id: 3,
@@ -29,7 +28,7 @@ export const projectsData = [
     tags: ["React", "CSS", "Material Ui"],
     code: "https://github.com/said7388/Travel-Agency-client",
     demo: "https://travel-agency-fc58b.web.app/",
-    image: eight,
+    // image: ,
   },
 ];
 
